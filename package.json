@@ -1,8 +1,5 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.4.13"
-  },
   "dependencies": {
-    "rippleui": "^1.12.1"
+    "@picocss/pico": "^2.0.6"
   }
 }
