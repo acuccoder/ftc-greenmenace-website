@@ -1,0 +1,17 @@
+@import url("./node_modules/@picocss/pico/css/pico.green.min.css");
+
+/* nav {
+    background-color: darkgreen;
+    border-radius: 51vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 15px;
+} */
+
+ul {
+    background-color: darkgreen;
+    border-radius: 51vh;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin: 15px !important;
+}
