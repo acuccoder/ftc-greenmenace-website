@@ -1,17 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+html {
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-/* nav {
-    background-color: darkgreen;
+main {
+    position: relative;
+    top: 66px;
+    padding: 10px;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+nav ul div {
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(0, 148, 74);
+    padding: 10px;
+    margin: 20px 20px;
     border-radius: 51vh;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 15px;
-} */
+    /* box-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa; */
+    box-shadow:
+        0px 0px 2px rgba(0, 148, 74, 0.5),
+        0px 0px 4px rgba(0, 148, 74, 0.5),
+        0px 0px 8px rgba(0, 148, 74, 0.5),
+        0px 0px 16px rgba(0, 148, 74, 0.5);
+}
 
-ul {
-    background-color: darkgreen;
-    border-radius: 51vh;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    margin: 15px !important;
+nav ul div:first-child {
+    float: left;
+}
+
+nav ul div:last-child {
+    float: right;
+}
+
+nav ul div:last-child li {
+    padding: 0 15px;
+}
+
+nav ul div:first-child li {
+    padding: 0 10px;
+}
+
+nav ul div li a {
+    color: var(--nord1);
+}
+
+a#high {
+    position: relative;
+    text-decoration: none;
+}
+  
+a#high:hover {
+    right: 0;
+    text-decoration: none;
+}
+  
+a#high:hover:after {
+    border-color: #45fb8875;
+    right: 0%;
+}
+  
+a#high:after {
+    border-radius: 1em;
+    border-top: .1em solid #2fb07400;
+    content: "";
+    position: absolute;
+      right: 100%;
+      bottom: 0.14em;
+      left: -20%;
+    transition: right .4s cubic-bezier(0,.5,0,1),
+                border-color .4s ease-out;
+    border-width: 1em;
+}
+  
+a#high:hover:after {
+  right: -20%;
+}
+
+a:not(#high) {
+    text-decoration: none;
+}
+
+a:not(#high) {
+    text-decoration: underline;
 }
