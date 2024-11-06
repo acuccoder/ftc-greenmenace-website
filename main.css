@@ -27,7 +27,7 @@ html {
         "Helvetica Neue",
         sans-serif;
 }
-
+/*
 main {
     margin-top: 0px;
     z-index: 0;
@@ -39,7 +39,27 @@ main {
     transform: translate(-50%, -50%);
     width: 70%;
 }
+*/
+
 main div {
+    text-align: center;
+}
+
+main div {
+    height: 90vh;
+}
+main div:last-child {
+    height: 70vh;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+}
+
+#menace-acr li {
+    list-style-type: none !important;
 }
 
 nav {

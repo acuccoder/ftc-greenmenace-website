@@ -16,6 +16,7 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.green.min.css"
         />
+        <link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
         <title>Team Green Menace</title>
     </head>
     <body>
@@ -23,17 +24,29 @@
         <nav>
             <ul>
                 <li>
-                    <a href="/" class="glitch" data-text="Fear The Green"
+                    <a href="/#home" class="glitch" data-text="Fear The Green"
                         >Green Menace</a
                     >
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
+                </li>
+                <!-- <li>
+                    <a href="#meet-the-team">Meet The Team</a>
+                </li> -->
+                <li>
+                    <a href="#un-goals">UN Goals</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#community-connection">Connection to Community</a>
+                </li>
+                <li>
+                    <a href="#fundraisers">Fundraisers</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
                 </li>
                 <li>
                     <a
@@ -44,18 +57,104 @@
             </ul>
         </nav>
         <main class="container">
-            <h1 id="typed-title"></h1>
-            <p>
-                Welcome to the Green Menace team website! We are a robotics team
-                located in Brampton, Ontario. We are currently participating in
-                the
-                <abbr title="First Tech Challenge">FTC</abbr> 2024-2025 game,
-                Into The Deep. Our team number is 27445.
-            </p>
+            <div id="home">
+                <h1 id="typed-title"></h1>
+                <p>
+                    Welcome to the Green Menace team website! We are a robotics
+                    team located in Brampton, Ontario. We are currently
+                    participating in the
+                    <abbr title="First Tech Challenge">FTC</abbr> 2024-2025
+                    game, Into The Deep. Our team number is 27445.
+                </p>
+            </div>
+            <div id="about">
+                <h1>About Us</h1>
+                <p>Green Menace is a team of 13 students working hard to be successfull in the FIRST Competitions. Our team name, Green Menace, has an acronym, MENACE. It stands for:
+                    <ul id="menace-acr">
+                        <li>Mechanical</li>
+                        <li>Engineering [for] </li>
+                        <li>Next-gen</li>
+                        <li>Advanced</li>
+                        <li>Cognitive</li>
+                        <li>Explorer</li>
+                    </ul>
+                    We aspire to promote engagement in the technological industry, fostering innovation, collaboration, and hands-on learning.
+                </p>
+            </div>
+            <!-- <div id="meet-the-team">
+                <h1>Our Team</h1>
+                <p>Coming soon!</p>
+            </div> -->
+            <div id="un-goals">
+                <h1>UN Goals</h1>
+                <p>A major part of F.I.R.S.T is giving back to the community. That is why we believe that our robot is proudly designed to help work towards the UN goals. As this season's challenge focuses on a deep dive into one of the most interesting areas of our planet, we decided to focus on UN Goal 14: life below water. Large and small bodies of water across the world have been contaminated by excessive ocean bed mining and offshore drilling combined with the already high number of waste in the ocean. Our robot hopes to help reduce the number of waste that is in our oceans through artificial intelligence and human-controlled movement. We have designed our robot in order to be able to find waste from sea life and use its claws to grab it and help it resurface to be collected by a human player. In our imagination, we think of the specimen and samples as the waste and the human player to be the helper. The baskets and the rungs are the places where the robot chooses to sort these materials into the right location. We believe that if others were to take our robot idea and utilize it to create a working robot that could do as we mentioned, but in an actual scenario, it would greatly benefit the world.
+                </p>
+            </div>
+            <div id="community-connection">
+                <h1>Our Connection to the Community</h1>
+                <p>
+                    We have initiated a club in our school community to promote future engagement in the technological industry. To keep this excitement of technology alive and to create additional enthusiasm for this industry, we have started a coding club. In our coding club, we cover the basics of coding and go all the way to web development. We have three categories: beginner, intermediate and advanced. We hope to help our club members achieve the best of their abilities and help them learn coding in an interesting way. Over 40 students have decided to join our coding club to enrich their knowledge of coding. Later in the year, we hope to start a robotics club. Our robotics club will integrate the skills and basic interpretation of coding into mechanical terms. This will help the students in our school deliver what they can imagine through the notion of technology. We strongly believe that technology is the foundation of the future, and we’ve come together to provide our school with these clubs to help them greet the future with some understanding of technology.
+                </p>
+            </div>
+            <div id="fundraisers">
+                <h1>Fundraisers</h1>
+                <p>As we are first-time competitors in the FTC, we did not know how much it could cost us financially to get started with the F.I.R.S.T Tech Challenge. Fortunately, our team had an amazing idea to collaborate with the school and sell foods to our school community to help fundraise for this purpose. We have successfully fundraised lots of money to provide for ourselves the various parts we needed for our robot.</p>
+            </div>
+            <div id="contact">
+                <h1>Contact Us</h1>
+                <p>Please fill out the following form to contact us.</p>
+                <form
+                  action="https://formcarry.com/s/G_ew8yYdlL9"
+                  method="POST"
+                  enctype="multipart/form-data"
+                >
+                  <label>
+                    Your email:
+                    <input type="email" name="email" placeholder="maria.wang@domain.com" title="Apparently, there is a 1 in 8092 chance that we guessed your name correctly.">
+                  </label>
+                  <label>
+                    Your message:
+                    <textarea name="message" placeholder="Lorem ipsum dolor, sit amet consectetur adipisicing elit."></textarea>
+                  </label>
+                  <button type="submit">Send</button>
+                </form>
+            </div>
         </main>
+        <footer>
+            <p>This website was coded and designed by Aaravv Chopra. The paragraphs were written by Shivan Luthra and Abhi Patel. We use <a href="https://picocss.com">PicoCSS</a>, <a href="https://mattboldt.github.io/typed.js/">Typed.js</a>, and <a href="https://vantajs.com">Vanta.js</a>. Our website is licenced under the <a href="https://www.gnu.org/licenses/gpl.html">GNU GPLv3</a>. All other trademarks, logos, or external content are the property of their respective owners.</p>
+        </footer>
     </body>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
-    <script src="index.js" type="module"></script>
+    <script>
+        const typed = new Typed("#typed-title", {
+            strings: ["Team Green Menace"],
+            typeSpeed: 50,
+            cursorChar: "_",
+        });
+        /* Just in case a toggle is added later,
+    I have stored the darkmode value in a variable. */
+        const prefersDark =
+            window.matchMedia &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+        if (prefersDark) {
+            // VANTA.JS Imports
+            VANTA.NET({
+                el: "#fancy-background",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.0,
+                minWidth: 200.0,
+                scale: 1.0,
+                scaleMobile: 1.0,
+                color: 0x841b,
+                backgroundColor: 0x15173c,
+                points: 8.0,
+                maxDistance: 22.0,
+            });
+        }
+    </script>
 </html>
