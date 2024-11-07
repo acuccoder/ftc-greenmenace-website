@@ -56,13 +56,30 @@
         </nav>
         <main class="container">
             <h1 id="typed-title"></h1>
-            <p>
-                Welcome to the Green Menace team website! We are a robotics team
-                located in Brampton, Ontario. We are currently participating in
-                the
-                <abbr title="First Tech Challenge">FTC</abbr> 2024-2025 game,
-                Into The Deep. Our team number is 27445.
-            </p>
+            <p>Please fill out the following form to contact us.</p>
+            <form
+                action="https://formcarry.com/s/G_ew8yYdlL9"
+                method="POST"
+                enctype="multipart/form-data"
+            >
+                <label>
+                    Your email:
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="maria.wang@domain.com"
+                        title="Apparently, there is a 1 in 8092 chance that we guessed your name correctly."
+                    />
+                </label>
+                <label>
+                    Your message:
+                    <textarea
+                        name="message"
+                        placeholder="Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+                    ></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
         </main>
         <footer>
             <p>
@@ -83,7 +100,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
     <script>
         const typed = new Typed("#typed-title", {
-            strings: ["Team Green Menace"],
+            strings: ["Contact Us"],
             typeSpeed: 50,
             cursorChar: "_",
         });

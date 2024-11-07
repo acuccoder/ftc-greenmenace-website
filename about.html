@@ -16,7 +16,7 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.green.min.css"
         />
-        <link rel="shortcut icon" type="image/jpg" href="favicon.jpg" />
+        <link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
         <title>Team Green Menace</title>
     </head>
     <body>
@@ -55,27 +55,21 @@
             </ul>
         </nav>
         <main class="container">
-            <h1 id="typed-title"></h1>
-            <p>
-                Welcome to the Green Menace team website! We are a robotics team
-                located in Brampton, Ontario. We are currently participating in
-                the
-                <abbr title="First Tech Challenge">FTC</abbr> 2024-2025 game,
-                Into The Deep. Our team number is 27445.
-            </p>
+                <h1 id="typed-title"></h1>
+                <p>Green Menace is a team of 13 students working hard to be successfull in the FIRST Competitions. Our team name, Green Menace, has an acronym, MENACE. It stands for:
+                    <ul id="menace-acr">
+                        <li>Mechanical</li>
+                        <li>Engineering [for] </li>
+                        <li>Next-gen</li>
+                        <li>Advanced</li>
+                        <li>Cognitive</li>
+                        <li>Explorer</li>
+                    </ul>
+                    We aspire to promote engagement in the technological industry, fostering innovation, collaboration, and hands-on learning.
+                </p>
         </main>
         <footer>
-            <p>
-                This website was coded and designed by Aaravv Chopra. The
-                paragraphs were written by Shivan Luthra and Abhi Patel. We use
-                <a href="https://picocss.com">PicoCSS</a>,
-                <a href="https://mattboldt.github.io/typed.js/">Typed.js</a>,
-                and <a href="https://vantajs.com">Vanta.js</a>. Our website is
-                licenced under the
-                <a href="https://www.gnu.org/licenses/gpl.html">GNU GPLv3</a>.
-                All other trademarks, logos, or external content are the
-                property of their respective owners.
-            </p>
+            <p>This website was coded and designed by Aaravv Chopra. The paragraphs were written by Shivan Luthra and Abhi Patel. We use <a href="https://picocss.com">PicoCSS</a>, <a href="https://mattboldt.github.io/typed.js/">Typed.js</a>, and <a href="https://vantajs.com">Vanta.js</a>. Our website is licenced under the <a href="https://www.gnu.org/licenses/gpl.html">GNU GPLv3</a>. All other trademarks, logos, or external content are the property of their respective owners.</p>
         </footer>
     </body>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -83,7 +77,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
     <script>
         const typed = new Typed("#typed-title", {
-            strings: ["Team Green Menace"],
+            strings: ["About Us"],
             typeSpeed: 50,
             cursorChar: "_",
         });
@@ -110,20 +104,20 @@
                 maxDistance: 22.0,
             });
         } else {
-            VANTA.NET({
-                el: "#fancy-background",
-                mouseControls: true,
-                touchControls: true,
-                gyroControls: false,
-                minHeight: 200.0,
-                minWidth: 200.0,
-                scale: 1.0,
-                scaleMobile: 1.0,
-                color: 0xffffff,
-                backgroundColor: 0x9eff9e,
-                points: 8.0,
-                maxDistance: 22.0,
-            });
+          VANTA.NET({
+              el: "#fancy-background",
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 200.0,
+              minWidth: 200.0,
+              scale: 1.0,
+              scaleMobile: 1.0,
+              color: 0xffffff,
+              backgroundColor: 0x9eff9e,
+              points: 8.00,
+              maxDistance: 22.00
+          });
         }
     </script>
 </html>
